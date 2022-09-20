@@ -1,5 +1,5 @@
 {
-  "name": "class-validator",
+  "name": "decorator-validation",
   "version": "0.13.2",
   "description": "Decorator-based property validation for classes.",
   "author": "TypeStack contributors",
@@ -11,13 +11,19 @@
   "typings": "./types/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/typestack/class-validator.git"
+    "url": "https://github.com/edsonmoretti/decorator-validations.git"
   },
   "tags": [
     "validator",
     "validation",
     "decorators",
-    "typescript"
+    "typescript",
+    "typescript",
+    "i18n",
+    "multi",
+    "language",
+    "lang",
+    "internationalization"
   ],
   "scripts": {
     "build": "npm run build:cjs",
@@ -45,14 +51,14 @@
     "@types/jest": "^27.4.1",
     "@types/node": "^17.0.24",
     "@types/validator": "^13.7.2",
-    "@typescript-eslint/eslint-plugin": "^4.33.0",
-    "@typescript-eslint/parser": "^4.33.0",
-    "eslint": "^7.32.0",
+    "@typescript-eslint/eslint-plugin": "^5.38.0",
+    "@typescript-eslint/parser": "^5.38.0",
+    "eslint": "^8.23.1",
     "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-jest": "^26.1.4",
-    "husky": "^4.3.8",
+    "eslint-plugin-jest": "^27.0.4",
+    "husky": "^8.0.1",
     "jest": "^26.6.3",
-    "lint-staged": "^12.3.7",
+    "lint-staged": "^13.0.3",
     "prettier": "^2.6.2",
     "reflect-metadata": "0.1.13",
     "rimraf": "3.0.2",
